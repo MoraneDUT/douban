@@ -1,0 +1,16 @@
+<view class="rate-content">
+  <!-- 如果评分为0 -->
+  <block wx:if="{{val==0}}">
+    <text>暂无评分</text>
+  </block>
+  <!-- 如果有正常评分 -->
+  <block wx:else>
+    <block wx:for="{{5}}" wx:key="item">
+      <!-- {{item}}
+    {{index}} -->
+      <view class="start start-full" wx:if="{{valNum>=(item+1)}}"></view>
+      <view class="start start-gray" wx:else></view>
+    </block>
+    <view class="rate-num">{{val}}</view>
+  </block>
+</view>

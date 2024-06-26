@@ -1,0 +1,4 @@
+<view>
+{{valStr}}
+<text catch:tap="showMore" class="more-text" wx:if="{{isMore}}">...展开</text>
+</view>

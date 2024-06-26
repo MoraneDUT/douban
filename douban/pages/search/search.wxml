@@ -1,0 +1,24 @@
+<view class="search">
+  <view class="search-content">
+    <view class="iconfont icon-sousuo sousuo"> </view>
+    <input class="sousuo-text" placeholder="搜索" bindinput="inputValue" type="text" />
+  </view>
+</view>
+
+<view class="search-main">
+  <view class="main-item" wx:for="{{Domestic.subject_collection_items}}" wx:key="item">
+    <view class="item-pic"  bind:tap="goDetail" data-tv-id="{{item.id}}">
+      <image src="{{item.pic.normal}}" mode="" />
+    </view>
+    <view class="item-left">
+      <view class="left-title"  bind:tap="goDetail" data-tv-id="{{item.id}}">{{item.title}}</view>
+      <view class="left-rate">
+        <rate val="{{item.rating.value}}"></rate>
+      </view>
+      <view class="left-comment">
+        <desc val="{{item.comment}}"></desc>
+      </view>
+    </view>
+  </view>
+
+</view>

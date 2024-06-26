@@ -1,0 +1,138 @@
+<!--
+此文件为开发者工具生成，生成时间: 2024/6/20上午8:52:02
+使用方法：
+在 C:\Users\Administrator\Desktop\douban2\pages\search\search.wxml 引入模板
+
+```
+<import src="search.skeleton.wxml"/>
+<template is="skeleton" wx:if="{{loading}}" />
+```
+
+在 C:\Users\Administrator\Desktop\douban2\pages\search\search.wxss 中引入样式
+```
+@import "./search.skeleton.wxss";
+```
+
+更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
+-->
+<template name="skeleton">
+  <view class="sk-container">
+    <view class="search">
+      <view class="search-content">
+        <view class="iconfont icon-sousuo sousuo sk-pseudo sk-pseudo-circle"></view>
+        <view class="sousuo-text sk-image" placeholder="搜索" type="text" selection-start="-1" selection-end="-1" cursor="-1"></view>
+      </view>
+    </view>
+    <view class="search-main">
+      <view class="main-item">
+        <view class="item-pic" data-tv-id="35665988">
+          <image mode="true" class="sk-image"></image>
+        </view>
+        <view class="item-left">
+          <view class="left-title sk-transparent sk-text-14-2857-726 sk-text" data-tv-id="35665988">玫瑰的故事</view>
+          <view class="left-rate">
+            <view is="components/rate/rate">
+              <view class="rate--rate-content">
+                <text class="sk-transparent sk-text-14-2857-709 sk-text">暂无评分</text>
+              </view>
+            </view>
+          </view>
+          <view class="left-comment">
+            <view is="pages/search/components/desc">
+              <view class="desc--totle-desc sk-transparent">
+                出生于书香世家的黄亦玫（刘亦菲 饰）一路在呵护中长大，从小便展露出艺术天赋。初入职场的黄亦玫很快受到重用，与合作伙伴庄国栋相识相爱，但最终错过彼此，这段职场磨炼也令她对自己的人生有了更清晰的规划，决定
+                <text class="desc--more-text sk-transparent sk-text-14-2857-886 sk-text">
+    ...展开  </text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="main-item">
+        <view class="item-pic" data-tv-id="36282652">
+          <image mode="true" class="sk-image"></image>
+        </view>
+        <view class="item-left">
+          <view class="left-title sk-transparent sk-text-14-2857-182 sk-text" data-tv-id="36282652">看不见影子的少年</view>
+          <view class="left-rate">
+            <view is="components/rate/rate">
+              <view class="rate--rate-content">
+                <view class="rate--start rate--start-full"></view>
+                <view class="rate--start rate--start-full"></view>
+                <view class="rate--start rate--start-full"></view>
+                <view class="rate--start rate--start-gray"></view>
+                <view class="rate--start rate--start-gray"></view>
+                <view class="rate--rate-num sk-transparent sk-text-14-2857-915 sk-text">7.2</view>
+              </view>
+            </view>
+          </view>
+          <view class="left-comment">
+            <view is="pages/search/components/desc">
+              <view class="desc--totle-desc sk-transparent">
+                讲述了一个“失孤”的刑警与一个“没有身份”的孤儿之间，从对立到相互救赎，一起探寻真相走向光明的情感悬疑故事。 一个孤独坚毅的警察，一个野蛮生长的少年，一场不期而遇的纠葛……在一个个失踪谜案交织着谋杀的
+                <text class="desc--more-text sk-transparent sk-text-14-2857-48 sk-text">
+    ...展开  </text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="main-item">
+        <view class="item-pic" data-tv-id="36073536">
+          <image mode="true" class="sk-image"></image>
+        </view>
+        <view class="item-left">
+          <view class="left-title sk-transparent sk-text-14-2857-120 sk-text" data-tv-id="36073536">墨雨云间</view>
+          <view class="left-rate">
+            <view is="components/rate/rate">
+              <view class="rate--rate-content">
+                <view class="rate--start rate--start-full"></view>
+                <view class="rate--start rate--start-full"></view>
+                <view class="rate--start rate--start-full"></view>
+                <view class="rate--start rate--start-gray"></view>
+                <view class="rate--start rate--start-gray"></view>
+                <view class="rate--rate-num sk-transparent sk-text-14-2857-506 sk-text">6.8</view>
+              </view>
+            </view>
+          </view>
+          <view class="left-comment">
+            <view is="pages/search/components/desc">
+              <view class="desc--totle-desc sk-transparent">
+                家庭优渥、生活幸福的县令之女薛芳菲在遭逢巨变之后失去一切，受救命恩人、中书令之女姜梨之托，以姜梨的身份回到京城，并在肃国公萧蘅等人的帮助下，克服重重艰险，不断努力对抗不公，最终救出意外入狱的父亲，并帮
+                <text class="desc--more-text sk-transparent sk-text-14-2857-513 sk-text">
+    ...展开  </text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="main-item">
+        <view class="item-pic" data-tv-id="34937650">
+          <image mode="true" class="sk-image"></image>
+        </view>
+        <view class="item-left">
+          <view class="left-title sk-transparent sk-text-14-2857-180 sk-text" data-tv-id="34937650">庆余年 第二季</view>
+          <view class="left-rate">
+            <view is="components/rate/rate">
+              <view class="rate--rate-content">
+                <view class="rate--start rate--start-full"></view>
+                <view class="rate--start rate--start-full"></view>
+                <view class="rate--start rate--start-full"></view>
+                <view class="rate--start rate--start-gray"></view>
+                <view class="rate--start rate--start-gray"></view>
+                <view class="rate--rate-num sk-transparent sk-text-14-2857-785 sk-text">7.2</view>
+              </view>
+            </view>
+          </view>
+          <view class="left-comment">
+            <view is="pages/search/components/desc">
+              <view class="desc--totle-desc sk-transparent">
+                该剧改编自猫腻同名畅销小说，承接上季，范闲（张若昀 饰）率领使团回归途中，二皇子以费介、范思辙以及滕家遗孤的安危来威胁范闲，逼他向自己俯首称臣，二人的矛盾就此激发。范闲所面对的抱月楼迷局，以及接踵而至
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,122 @@
+<!--
+此文件为开发者工具生成，生成时间: 2024/6/20上午8:52:16
+使用方法：
+在 C:\Users\Administrator\Desktop\douban2\pages\list\list.wxml 引入模板
+
+```
+<import src="list.skeleton.wxml"/>
+<template is="skeleton" wx:if="{{loading}}" />
+```
+
+在 C:\Users\Administrator\Desktop\douban2\pages\list\list.wxss 中引入样式
+```
+@import "./list.skeleton.wxss";
+```
+
+更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
+-->
+<template name="skeleton">
+  <view class="sk-container">
+    <view class="list-content">
+      <view class="list-items">
+        <view class="list-item" data-tv-id="35665988">
+          <view class="li-image">
+            <view class="lii-pic" data-tv-id="35665988">
+              <image mode="scaleToFill" class="sk-image"></image>
+            </view>
+            <view class="lii-swiper">
+              <swiper indicator-active-color="#ffffff" indicator-color="true" indicator-dots="true" current="0" autoplay="false">
+                <swiper-item style="position: absolute; width: 100%; height: 100%; transform: translate(0%, 0px) translateZ(0px);">
+                  <image mode="aspectFill" class="sk-image"></image>
+                </swiper-item>
+              </swiper>
+            </view>
+          </view>
+          <view class="li-title">
+            <view class="lit-left">
+              <view class="lit-text sk-transparent sk-text-14-2857-467 sk-text" data-tv-id="35665988">玫瑰的故事</view>
+              <view class="lit-rate">
+                <view is="components/rate/rate">
+                  <view class="rate--rate-content">
+                    <text class="sk-transparent sk-text-14-2857-853 sk-text">暂无评分</text>
+                  </view>
+                </view>
+              </view>
+              <view class="lit-info sk-transparent sk-text-14-2857-542 sk-text">2024 / 中国大陆 / 剧情 / 汪俊 / 刘亦菲 佟大为</view>
+            </view>
+            <view class="lit-right">
+              <view class="lit-like iconfont icon-xiangkan sk-pseudo sk-pseudo-circle" data-tv-id="35665988"></view>
+              <view class="lit-look sk-transparent sk-text-14-2857-713 sk-text" style="background-position-x: 50%;">想看</view>
+            </view>
+          </view>
+          <view class="li-des">
+            <view is="pages/list/components/desc">
+              <view class="sk-transparent">
+                出生于书香世家的黄亦玫（刘亦菲 饰）一路在呵护中长大，从小便展露出艺术天赋。初入职场的黄亦玫很快受到重用，与合作伙伴庄国
+                <text class="desc--more-text sk-transparent sk-text-14-2857-319 sk-text">...展开</text>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="list-item" data-tv-id="36282652">
+          <view class="li-image">
+            <view class="lii-pic" data-tv-id="36282652">
+              <image mode="scaleToFill" class="sk-image"></image>
+            </view>
+            <view class="lii-swiper">
+              <swiper indicator-active-color="#ffffff" indicator-color="true" indicator-dots="true" current="0" autoplay="false">
+                <swiper-item style="position: absolute; width: 100%; height: 100%; transform: translate(0%, 0px) translateZ(0px);">
+                  <image mode="aspectFill" class="sk-image"></image>
+                </swiper-item>
+              </swiper>
+            </view>
+          </view>
+          <view class="li-title">
+            <view class="lit-left">
+              <view class="lit-text sk-transparent sk-text-14-2857-249 sk-text" data-tv-id="36282652">看不见影子的少年</view>
+              <view class="lit-rate">
+                <view is="components/rate/rate">
+                  <view class="rate--rate-content">
+                    <view class="rate--start rate--start-full"></view>
+                    <view class="rate--start rate--start-full"></view>
+                    <view class="rate--start rate--start-full"></view>
+                    <view class="rate--start rate--start-gray"></view>
+                    <view class="rate--start rate--start-gray"></view>
+                    <view class="rate--rate-num sk-transparent sk-text-14-2857-415 sk-text">7.2</view>
+                  </view>
+                </view>
+              </view>
+              <view class="lit-info sk-transparent sk-text-14-2857-754 sk-text">2024 / 中国大陆 / 剧情 悬疑 犯罪 / 周全 / 张颂文 荣梓杉</view>
+            </view>
+            <view class="lit-right">
+              <view class="lit-like iconfont icon-xiangkan sk-pseudo sk-pseudo-circle" data-tv-id="36282652"></view>
+              <view class="lit-look sk-transparent sk-text-14-2857-767 sk-text" style="background-position-x: 50%;">想看</view>
+            </view>
+          </view>
+          <view class="li-des">
+            <view is="pages/list/components/desc">
+              <view class="sk-transparent">
+                讲述了一个“失孤”的刑警与一个“没有身份”的孤儿之间，从对立到相互救赎，一起探寻真相走向光明的情感悬疑故事。 一个孤独坚
+                <text class="desc--more-text sk-transparent sk-text-14-2857-741 sk-text">...展开</text>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="list-item" data-tv-id="36073536">
+          <view class="li-image">
+            <view class="lii-pic" data-tv-id="36073536">
+              <image mode="scaleToFill" class="sk-image"></image>
+            </view>
+            <view class="lii-swiper">
+              <swiper indicator-active-color="#ffffff" indicator-color="true" indicator-dots="true" current="0" autoplay="false">
+                <swiper-item style="position: absolute; width: 100%; height: 100%; transform: translate(0%, 0px) translateZ(0px);">
+                  <image mode="aspectFill" class="sk-image"></image>
+                </swiper-item>
+              </swiper>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

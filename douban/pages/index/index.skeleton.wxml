@@ -1,0 +1,199 @@
+<!--
+此文件为开发者工具生成，生成时间: 2024/6/17上午8:37:13
+使用方法：
+在 E:\miniprogram\douban\pages\index\index.wxml 引入模板
+
+```
+<import src="index.skeleton.wxml"/>
+<template is="skeleton" wx:if="{{loading}}" />
+```
+
+在 E:\miniprogram\douban\pages\index\index.wxss 中引入样式
+```
+@import "./index.skeleton.wxss";
+```
+
+更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
+-->
+<template name="skeleton">
+  <view class="sk-container">
+    <view>
+      <view class="tv-content">
+        <view class="title-bar">
+          <view class="title-text sk-transparent sk-text-14-2857-312 sk-text">近期热门国产剧</view>
+          <view class="more-btn sk-transparent sk-text-14-2857-804 sk-text" data-tar-val="tv_domestic ">更多50</view>
+        </view>
+        <scroll-view scroll-x="true">
+          <view class="section-content">
+            <view class="items-bar">
+              <view class="items-img">
+                <image mode="aspectFill" class="sk-image"></image>
+              </view>
+              <view class="items-title sk-transparent sk-text-14-2857-429 sk-text" style="background-position-x: 50%;">玫瑰的故事</view>
+              <view class="items-rate">
+                <view is="components/rate/rate">
+                  <view class="rate--rate-content">
+                    <text class="sk-transparent sk-text-14-2857-230 sk-text" style="background-position-x: 50%;">暂无评分</text>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="items-bar">
+              <view class="items-img">
+                <image mode="aspectFill" class="sk-image"></image>
+              </view>
+              <view class="items-title sk-transparent sk-text-14-2857-528 sk-text" style="background-position-x: 50%;">看不见影子的少年</view>
+              <view class="items-rate">
+                <view is="components/rate/rate">
+                  <view class="rate--rate-content">
+                    <text class="sk-transparent sk-text-14-2857-887 sk-text" style="background-position-x: 50%;">暂无评分</text>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="items-bar">
+              <view class="items-img">
+                <image mode="aspectFill" class="sk-image"></image>
+              </view>
+              <view class="items-title sk-transparent sk-text-14-2857-784 sk-text" style="background-position-x: 50%;">墨雨云间</view>
+              <view class="items-rate">
+                <view is="components/rate/rate">
+                  <view class="rate--rate-content">
+                    <view class="rate--start rate--start-full"></view>
+                    <view class="rate--start rate--start-full"></view>
+                    <view class="rate--start rate--start-full"></view>
+                    <view class="rate--start rate--start-gray"></view>
+                    <view class="rate--start rate--start-gray"></view>
+                    <view class="rate--rate-num sk-transparent sk-text-14-2857-411 sk-text" style="background-position-x: 50%;">6.8</view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="items-bar">
+              <view class="items-img">
+                <image mode="aspectFill" class="sk-image"></image>
+              </view>
+              <view class="items-title sk-transparent sk-text-14-2857-429 sk-text" style="background-position-x: 50%;">庆余年 第二季</view>
+              <view class="items-rate">
+                <view is="components/rate/rate">
+                  <view class="rate--rate-content">
+                    <view class="rate--start rate--start-full"></view>
+                    <view class="rate--start rate--start-full"></view>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </scroll-view>
+      </view>
+      <view class="tv-content">
+        <view class="title-bar">
+          <view class="title-text sk-transparent sk-text-14-2857-280 sk-text">近期热门综艺节目</view>
+          <view class="more-btn sk-transparent sk-text-14-2857-13 sk-text" data-tar-val="tv_variety_show ">更多15</view>
+        </view>
+        <scroll-view scroll-x="true">
+          <view class="section-content">
+            <view class="items-bar">
+              <view class="items-img">
+                <image mode="aspectFill" class="sk-image"></image>
+              </view>
+              <view class="items-title sk-transparent sk-text-14-2857-197 sk-text" style="background-position-x: 50%;">歌手2024</view>
+              <view class="items-rate">
+                <view is="components/rate/rate">
+                  <view class="rate--rate-content">
+                    <view class="rate--start rate--start-full"></view>
+                    <view class="rate--start rate--start-full"></view>
+                    <view class="rate--start rate--start-full"></view>
+                    <view class="rate--start rate--start-gray"></view>
+                    <view class="rate--start rate--start-gray"></view>
+                    <view class="rate--rate-num sk-transparent sk-text-14-2857-325 sk-text" style="background-position-x: 50%;">6.5</view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="items-bar">
+              <view class="items-img">
+                <image mode="aspectFill" class="sk-image"></image>
+              </view>
+              <view class="items-title sk-transparent sk-text-14-2857-853 sk-text" style="background-position-x: 50%;">哈哈哈哈哈 第四季</view>
+              <view class="items-rate">
+                <view is="components/rate/rate">
+                  <view class="rate--rate-content">
+                    <view class="rate--start rate--start-full"></view>
+                    <view class="rate--start rate--start-full"></view>
+                    <view class="rate--start rate--start-full"></view>
+                    <view class="rate--start rate--start-gray"></view>
+                    <view class="rate--start rate--start-gray"></view>
+                    <view class="rate--rate-num sk-transparent sk-text-14-2857-849 sk-text" style="background-position-x: 50%;">7.6</view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="items-bar">
+              <view class="items-img">
+                <image mode="aspectFill" class="sk-image"></image>
+              </view>
+              <view class="items-title sk-transparent sk-text-14-2857-844 sk-text" style="background-position-x: 50%;">克拉克森的农场 第三季</view>
+              <view class="items-rate">
+                <view is="components/rate/rate">
+                  <view class="rate--rate-content">
+                    <view class="rate--start rate--start-full"></view>
+                    <view class="rate--start rate--start-full"></view>
+                    <view class="rate--start rate--start-full"></view>
+                    <view class="rate--start rate--start-full"></view>
+                    <view class="rate--start rate--start-gray"></view>
+                    <view class="rate--rate-num sk-transparent sk-text-14-2857-996 sk-text" style="background-position-x: 50%;">9.6</view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="items-bar">
+              <view class="items-img">
+                <image mode="aspectFill" class="sk-image"></image>
+              </view>
+              <view class="items-title sk-transparent sk-text-14-2857-90 sk-text" style="background-position-x: 50%;">乘风2024</view>
+              <view class="items-rate">
+                <view is="components/rate/rate">
+                  <view class="rate--rate-content">
+                    <view class="rate--start rate--start-full"></view>
+                    <view class="rate--start rate--start-full"></view>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </scroll-view>
+      </view>
+      <view class="tv-content">
+        <view class="title-bar">
+          <view class="title-text sk-transparent sk-text-14-2857-775 sk-text">近期热门美剧</view>
+          <view class="more-btn sk-transparent sk-text-14-2857-116 sk-text" data-tar-val="tv_american ">更多50</view>
+        </view>
+        <scroll-view scroll-x="true">
+          <view class="section-content">
+            <view class="items-bar">
+              <view class="items-img">
+                <image mode="aspectFill" class="sk-image"></image>
+              </view>
+            </view>
+            <view class="items-bar">
+              <view class="items-img">
+                <image mode="aspectFill" class="sk-image"></image>
+              </view>
+            </view>
+            <view class="items-bar">
+              <view class="items-img">
+                <image mode="aspectFill" class="sk-image"></image>
+              </view>
+            </view>
+            <view class="items-bar">
+              <view class="items-img">
+                <image mode="aspectFill" class="sk-image"></image>
+              </view>
+            </view>
+          </view>
+        </scroll-view>
+      </view>
+    </view>
+  </view>
+</template>

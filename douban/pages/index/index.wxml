@@ -1,0 +1,16 @@
+<import src="./tvContent.wxml"/>
+<import src="./index.skeleton.wxml"/>
+<view wx:if="{{isLoading}}">
+  <template is="skeleton"/>
+</view>
+<view wx:else>
+    <view class="header-search">
+      <view class="search-main" bind:tap="toSearch">
+        <text  class="iconfont icon-sousuo"></text>
+        搜索
+      </view>
+    </view>
+    <template is="tvContent" data="{{dataVal:tvDomestic}}"/>
+    <template is="tvContent" data="{{dataVal:tvVarietyShow}}"/>
+    <template is="tvContent" data="{{dataVal:tvAmerican}}"/>
+</view>

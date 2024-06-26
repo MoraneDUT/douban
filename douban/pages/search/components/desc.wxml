@@ -1,0 +1,6 @@
+<view class="totle-desc">
+  {{valStr}}
+  <text bind:tap="showMore" class="more-text" wx:if="{{isMore || isExpanded}}">
+    {{isExpanded ? '收回' : '...展开'}}
+  </text>
+</view>

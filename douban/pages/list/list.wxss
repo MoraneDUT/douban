@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4590168 */
+  src: url('//at.alicdn.com/t/c/font_4590168_lya0rsv1dj.woff2?t=1718715686188') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4590168_lya0rsv1dj.woff?t=1718715686188') format('woff'),
+       url('//at.alicdn.com/t/c/font_4590168_lya0rsv1dj.ttf?t=1718715686188') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xiangkan:before {
+  content: "\e600";
+}
+
+.icon-duigou:before {
+  content: "\e659";
+}
+
+@import "./list.skeleton.wxss";
+
+.li-image {
+    display: flex;
+}
+.list-item{
+    margin-bottom: 40rpx;
+    border-bottom: 1rpx solid #aaa;
+    padding-bottom: 40rpx;
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+}
+
+.list-item .lii-pic {
+    width: 200rpx;
+    height: 350rpx;
+    margin-right: 20rpx;
+}
+
+.list-item .lii-pic image {
+    width: 100%;
+    height: 100%;
+    border-radius: 15rpx;
+}
+
+.list-item .li-image {
+    margin: 20rpx;
+}
+
+.list-item .lii-swiper {
+    width: 480rpx;
+    height: 350rpx;
+}
+
+.list-item .lii-swiper swiper {
+    height: 100%;
+}
+
+.list-item .lii-swiper image {
+    width: 100%;
+    height: 100%;
+    border-radius: 15rpx;
+}
+
+.li-title {
+    display: flex;
+    justify-content: space-between;
+    margin: 20rpx;
+}
+
+.lit-left {
+    width: 500rpx;
+}
+
+.lit-right {
+    width: 80rpx;
+}
+
+.lit-left .lit-text {
+    font-size: 40rpx;
+    font-weight: bold;
+    color: #111;
+}
+
+.lit-left .lit-rate {
+    font-size: 24rpx;
+    color: rgb(240, 191, 76);
+    display: flex;
+    justify-content: left;
+    margin: 5rpx 0;
+}
+
+.lit-left .lit-info {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 26rpx;
+    color: #999;
+}
+.lit-right{
+    color: rgb(240, 191, 76);
+}
+.lit-right .lit-like{
+    font-size: 50rpx;
+    text-align: center;
+}
+.lit-right .lit-look{
+    font-size: 26rpx;
+    text-align: center;
+}
+.lit-right .lit-looked{
+    font-size: 26rpx;
+    text-align: center;
+    color: #999;
+}
+.li-des{
+    color: #333;
+    margin:0 20rpx
+}
+.no-data{
+    color: #999;
+    text-align: center;
+    margin-bottom:20rpx ;
+}

@@ -1,0 +1,21 @@
+<template name="tvContent">
+  <view class="tv-content">
+        <view class="title-bar">
+            <view class="title-text">{{dataVal.subject_collection.name}}</view>
+            <view class="more-btn" bind:tap="goList" data-tar-val="{{dataVal.subject_collection.id}} ">更多{{dataVal.total}}</view>
+        </view>
+        <scroll-view scroll-x>
+            <view class="section-content">
+                <view class="items-bar" wx:for="{{dataVal.subject_collection_items}}" wx:key="item" bind:tap="goDetail" data-tv-id="{{item.id}}">
+                    <view class="items-img">
+                        <image src="{{item.pic.normal}}" mode="aspectFill" />
+                    </view>
+                    <view class="items-title">{{item.title}}</view>
+                    <view class="items-rate">
+                    <rate val="{{item.rating.value}}"></rate>
+                    </view>
+                </view>
+            </view>
+        </scroll-view>
+    </view>
+</template>

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "rate":"../../components/rate/rate",
+    "desc":"./components/desc"
+  },
+  "navigationBarTitleText": "搜索"
+}

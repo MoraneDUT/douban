@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/detail/detail",
+    "pages/search/search",
+    "pages/search/components/desc",
+    "pages/mine/mine"
+  ],
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#f4ea2a",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/img/shouyeslect.png",
+        "selectedIconPath": "pages/img/shouye.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "pages/img/wodeslect.png",
+        "selectedIconPath": "pages/img/wode.png"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "豆瓣",
+    "navigationBarBackgroundColor": "#00adb5"
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

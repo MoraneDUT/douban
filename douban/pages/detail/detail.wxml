@@ -1,0 +1,39 @@
+<view class="bgc" style="background-color:{{'#'+formData.color_scheme.primary_color_light}} ;">
+  <view class="container">
+    <view class="tv-info">
+      <view class="tv-image">
+        <image src="{{formData.cover_url}}" mode="" />
+      </view>
+      <view class="tv-text">
+        <view class="ti-title">{{formData.title}}</view>
+        <view class="ti-text">{{formData.card_subtitle}}</view>
+        <view class="total">
+          <view class="mybottom" bindtap="toggleWantToWatch">
+            <view class="bottom-one iconfont {{ wantToWatch ? 'icon-duigou' : 'icon-xiangkan'}}">
+              {{ wantToWatch ? '已想看' : '想看' }}
+            </view>
+          </view>
+          <view class="mybottom" bindtap="toggleWatching">
+            <view class="bottom-one iconfont {{ watching ? 'icon-duigou' : 'icon-luzhizhong' }}">
+              {{ watching ? '在看中' : '在看' }}
+            </view>
+          </view>
+          <view class="mybottom" bindtap="toggleWatched">
+            <view class="bottom-one iconfont {{ watched ? 'icon-duigou' : 'icon-shoucang' }}">
+              {{ watched ? '已看过' : '看过' }}
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view>
+      <view class="jianjie">简介:</view>
+      <block class="jianjie-desc" wx:if="{{formData.intro}}">
+        <desc val="{{formData.intro}}"></desc>
+      </block>
+    </view>
+    <view class="tv-video">
+      <video src="{{formData.trailers[0].video_url}}" autoplay loop />
+    </view>
+  </view>
+</view>

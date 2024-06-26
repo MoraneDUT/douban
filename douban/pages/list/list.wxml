@@ -1,0 +1,39 @@
+<view class="list-content">
+    <view class="list-items">
+        <view class="list-item" wx:for="{{itemData.subject_collection_items}}" wx:key="id" data-tv-id="{{item.id}}">
+            <view class="li-image">
+                <view class="lii-pic"  bind:tap="goDetail" data-tv-id="{{item.id}}">
+                    <image src="{{item.pic.normal}}" mode="scaleToFill"/>
+                </view>
+                <view class="lii-swiper">
+                    <swiper indicator-dots="{{true}}" 	indicator-color="{{indicatorColor}}" 	indicator-active-color="#ffffff">
+                        <block wx:for="{{item.photos}}" wx:key="item">
+                            <swiper-item>
+                                <image src="{{item}}" mode="aspectFill"/>
+                            </swiper-item>
+                        </block>
+                    </swiper>
+                </view>
+            </view>
+            <view class="li-title">
+                <view class="lit-left">
+                    <view class="lit-text"  bind:tap="goDetail" data-tv-id="{{item.id}}">{{item.title}}</view>
+                    <view class="lit-rate">
+                        <rate val="{{item.rating.value}}"></rate>
+                    </view>
+                    <view class="lit-info">{{item.card_subtitle}}</view>
+                </view>
+                <view class="lit-right">
+                    <!-- <view class="lit-like iconfont icon-xin"></view> -->
+                    <view class="lit-like iconfont {{ wantToWatch[item.id] ? 'icon-duigou' : 'icon-xiangkan' }}" bindtap="toggleWantToWatch" data-tv-id="{{item.id}}"></view>
+                    <!-- <view class="lit-look">想看</view> -->
+                    <view class="{{ wantToWatch[item.id] ? 'lit-looked' : 'lit-look' }}">{{ wantToWatch[item.id] ? '已想看' : '想看' }}</view>
+                </view>
+            </view>
+            <view class="li-des">
+                <desc val="{{item.comment}}"></desc>
+            </view>
+        </view>
+        <view wx:if="{{isDone}}" class="no-data">没有更多数据了</view>
+    </view>
+</view>
